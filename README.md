@@ -124,9 +124,9 @@ mQuery.metric( 'mem.utilization' );
 ## Examples
 
 ``` javascript
-var createFactory = require( 'opentsdb-mquery' );
+var createQuery = require( 'opentsdb-mquery' );
 
-var mQuery = createFactory();
+var mQuery = createQuery();
 
 mQuery
 	.aggregator( 'sum' )
