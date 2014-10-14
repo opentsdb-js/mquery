@@ -2,7 +2,7 @@ Metric Query
 ============
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Factory for [OpenTSDB](http://opentsdb.net) metric queries.
+> [OpenTSDB](http://opentsdb.net) metric query factory.
 
 OpenTSDB permits two query [types](/docs/build/html/api_http/query/index.html): _[metric](https://github.com/opentsdb-js/mquery)_ and _[tsuid](https://github.com/opentsdb-js/tquery)_.
 
