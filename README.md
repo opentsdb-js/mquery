@@ -33,13 +33,13 @@ To use the module,
 var createFactory = require( 'opentsdb-mquery' );
 ```
 
-To create a new metric query factory,
+To create a new metric query,
 
 ``` javascript
 var mQuery = createFactory();
 ```
 
-A metric query factory has the following methods...
+A metric query has the following methods...
 
 
 #### mQuery.aggregator( [aggregator] )
