@@ -30,16 +30,16 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 To use the module,
 
 ``` javascript
-var createFactory = require( 'opentsdb-mquery' );
+var createQuery = require( 'opentsdb-mquery' );
 ```
 
 To create a new metric query,
 
 ``` javascript
-var mQuery = createFactory();
+var mQuery = createQuery();
 ```
 
-A metric query has the following methods...
+A metric query is configurable and has the following methods...
 
 
 #### mQuery.aggregator( [aggregator] )

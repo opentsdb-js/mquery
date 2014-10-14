@@ -1,6 +1,6 @@
-var createFactory = require( './../lib' );
+var createQuery = require( './../lib' );
 
-var mQuery = createFactory();
+var mQuery = createQuery();
 
 mQuery
 	.aggregator( 'sum' )
